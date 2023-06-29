@@ -1,0 +1,68 @@
+body {
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: 20px;
+margin: 0;
+padding: 0;
+
+}
+
+header {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: rgb(255, 255, 255);
+padding: 20px;
+
+}
+
+main {
+
+padding: 25px;
+text-align: justify;
+margin-right: 10%;
+margin-left: 10%;
+background-color: #a0a0a0;
+border-radius: 20px;
+margin-top: 10%;
+
+}
+
+button {
+
+border-radius: 20px;
+padding: 10px;
+border: none;
+background-image: url('https://assets.stickpng.com/images/6207a0fe26ab99000460a356.png');
+cursor: pointer;
+transition: background-color .7s;
+
+}
+
+button:hover {
+
+background-color: rgba(255, 255, 255, 0.632);
+
+}
+
+.dark-mode {
+
+background-color: #2e2e2e;
+color: white;
+
+}
+
+.dark-mode main {
+
+background-color: black;
+
+}
+
+.dark-mode button {
+
+background-color: black;
+
+}
